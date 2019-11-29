@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>吴丽滨sy8-1</title>
+<head>
+<style>
+body,h2,fieldset,p{
+	margin:0;
+	padding:0;
+	}
+p{
+	text-align:center;
+}
+h2{
+	color:#FFF;
+	font-weight:bold;
+	margin-bottom:10px;
+	text-align:center;
+	display:block;
+	}
+form {
+	width: 560px;
+	background-color: #515151;
+	padding: 20px;
+	margin:0 auto;
+	display:block;
+}
+.first{
+	width:180px;
+}
+.forth{
+	width:50px;
+}
+td{
+	height:50px;
+	color:#FFF;
+}
+td,th{
+	display:table-cell;
+	vertical-align:inherit;
+}
+table{
+	border-collapse:collapse;
+	display:table;
+	border-color:grey;
+}
+[type="text"]{
+	border:1px solid #666;
+}
+select{
+ width:180px;
+ height:18px;
+ border:1px solid #CCC;
+ font-size:10px;
+}
+fieldset{
+	width:520px;
+	padding:20px;
+	margin-bottom:25px;
+	display:block;
+}
+legend,label{
+	color:#FFF;
+	 margin-bottom:10px;
+	}
+[type="checkbox"] {
+	margin:10px;
+	}
+</style>
+</head>
+<body>
+<form>
+<h2>增加快递信息</h2>
+  <fieldset>
+    <legend>发货单</legend>
+    <table>
+    <tbody>
+    <tr>
+    <td>发货人：</td>
+    <td class="first"><input type="text" style=width:140px;
+	height:35px;></td>
+    <td>地址：</td>
+    <td class="first"><input type="text" style=width:140px;
+	height:35px;></td>
+    </tr>
+    <tr>
+    <td>电话：</td>
+    <td class="first"> <input type="text" style=width:140px;
+	height:35px;></td>
+    <td>邮编：</td>
+    <td class="first"><input type="text" style=width:140px;
+	height:35px;></td>
+    </tr>
+    </tbody>
+    </table>
+    </fieldset>
+    <fieldset>
+    <table>
+    <tbody>
+    <tr>
+    <td>收货人：</td>
+    <td class="first"> <input type="text" style=width:140px;
+	height:35px;></td>
+    <td>地址：</td>
+    <td class="first"><input type="text" style=width:140px;
+	height:35px;></td>
+    </tr>
+    <tr>
+    <td>电话：</td>
+    <td class="first"> <input type="text" style=width:140px;
+	height:35px;></td>
+    <td>邮编：</td>
+    <td class="first"><input type="text" style=width:140px;
+	height:35px;></td>
+    </tr>
+    <tr>
+    <td colspan="4">地区：
+    <select>
+      <option>火星</option>
+      <option>水星</option>
+      <option>土星</option>
+      <option>金星</option>
+      <option>木星</option>
+    </select></td>
+    </tr>
+    <tr>
+    <td colspan="4">包装：
+      <input type="checkbox">
+      纸箱
+      <input type="checkbox">
+      木箱
+      <input type="checkbox">
+      快递袋
+      <input type="checkbox">
+      其他
+    </td>
+    </tr>
+    <tr>
+    <td colspan="4">
+    付款方式
+      <input type="radio">
+      现金</label>
+    <label>
+      <input type="radio">
+      支付宝
+      <input type="radio">
+      网银
+      <input type="radio">
+      ATM
+      </td>
+    </tr>
+      </tbody>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>货物信息</legend>
+     <table>
+    <tbody>
+     <tr>
+     <td colspan="2"class="second">货物名称：</td>
+     <td colspan="4" class="third">
+      <input type="text" style=width:324px;
+	height:35px;></td>
+      </tr>
+      <tr>
+      <td class="second">数量：</td>
+      <td class="forth"><input type="text" style=width:30px;
+	height:35px;></td>
+   <td class="second"> 重量：</td>
+      <td class="forth"><input type="text" style=width:30px;
+	height:35px;></td>
+   <td class="second">发货时间：</td>
+      <td class="first"><input type="text" style=width:140px;
+	height:35px;></td>
+    </tr>
+    </tbody>
+ </table>
+    </fieldset>
+  <p>
+    <input type="submit" value="确定">
+    <input type="reset" value="取消">
+  </p>
+</form>
+</body>
+<html>
